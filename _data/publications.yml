@@ -2,6 +2,14 @@ heading: "Publications"
 years:
   - year: 2026
     entries:
+      - venue: "VLDB"
+        title: "Toward Drift-Aware Database Benchmarking"
+        authors: "G. Liu and R. Borovica-Gajic"
+        note: "(to appear)"
+      - venue: "ICDE"
+        title: "Generalizable Address-aware Semantic Prefetching for Scalable Transactional and Analytical Workloads"
+        authors: "F. Zirak, F. Choudhury, and R. Borovica-Gajic"
+        note: "(to appear)"
       - venue: "MLSys"
         title: "Practical Adversarial Multi-Armed Bandits with Sublinear Runtime"
         authors: "K. Overgaard Mortensen, A. B. Bainson, M. R. Tversted, K. S. Graem, R. Borovica-Gajic, A. Paudice, D. Mottin, and P. Karras"
@@ -58,14 +66,12 @@ years:
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2025_adc_kaan.pdf"
-        note: "(to appear)"
       - venue: "ADC"
         title: "LLM-Enhanced Processing of Complex Spatial Queries"
         authors: "R. Hao, G. Liu and R. Borovica-Gajic"
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2025_adc_ruiyi.pdf"
-        note: "(to appear)"
       - venue: "SIGSPATIAL"
         title: "TrajNS: Numerical and Semantic Modeling Framework for Realistic and Controllable Trajectory Generation"
         authors: "D. Lakmal, R. Borovica-Gajic and S. Karunasekera"
