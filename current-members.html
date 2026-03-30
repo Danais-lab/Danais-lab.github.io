@@ -9,6 +9,7 @@ layout: null
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Current Members | DANAIS Lab</title>
+    <link rel="icon" href="data:," />
     <link rel="stylesheet" href="styles.css" />
     <style>
       body.current-members {
@@ -69,7 +70,11 @@ layout: null
               <div class="people-grid">
                 <div class="person-card lead-highlight">
                   <div class="person-photo">
-                    <img src="{{ people.lead.image }}" alt="{{ people.lead.name }}" loading="lazy" onerror="this.style.display='none'" />
+                    {% assign lead_image_path = people.lead.image | prepend: "/" %}
+                    {% assign lead_image_file = site.static_files | where: "path", lead_image_path | first %}
+                    {% if people.lead.image and lead_image_file %}
+                      <img src="{{ people.lead.image }}" alt="{{ people.lead.name }}" loading="lazy" onerror="this.style.display='none'" />
+                    {% endif %}
                     <span aria-hidden="true">{{ people.lead.initials }}</span>
                   </div>
                 <div class="person-meta">
@@ -88,7 +93,11 @@ layout: null
                 {% for person in current_group.people %}
                   <div class="person-card">
                     <div class="person-photo">
-                      <img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy" onerror="this.style.display='none'" />
+                      {% assign person_image_path = person.image | prepend: "/" %}
+                      {% assign person_image_file = site.static_files | where: "path", person_image_path | first %}
+                      {% if person.image and person_image_file %}
+                        <img src="{{ person.image }}" alt="{{ person.name }}" loading="lazy" onerror="this.style.display='none'" />
+                      {% endif %}
                       <span aria-hidden="true">{{ person.initials }}</span>
                     </div>
                     <div class="person-meta">
