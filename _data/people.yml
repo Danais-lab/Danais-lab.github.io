@@ -127,6 +127,12 @@ groups:
           generalize across benchmarks and real-world environments.
         image: "images/people/yiyan.jpg"
         initials: "YL"
+      - name: "Yang Li"
+        title: "PhD Student (2026-)"
+        note: "Co-supervised with B. Rubinstein."
+        url: "https://www.linkedin.com/in/yang-li-bab9191b7/"
+        image: "images/people/yang-li.png"
+        initials: "YL"
   - title: "Alumni"
     people:
       - name: "Yixin Xu"
