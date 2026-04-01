@@ -19,6 +19,7 @@ This repo is friendly to LLM-based editors if they follow a few simple rules.
 - Keep YAML indentation consistent with the existing files (2 spaces).
 - Preserve the existing order and structure unless the task requires changing it.
 - Put people images under `images/people/`.
+- Put publication PDFs that should be served by this site under `files/papers/`.
 - If a person has no image yet, keep `initials` so the site can render a fallback.
 - Use full URLs for external links.
 - After content edits, prefer checking the generated page instead of editing generated HTML.
@@ -87,6 +88,21 @@ years:
             url: "https://example.com/paper.pdf"
           - label: "BibTex"
             url: "https://example.com/paper.bib"
+        note: "(to appear)"
+```
+
+If you do not have an external PDF URL yet, add the PDF file to `files/papers/` and point the `PDF` link to the site path instead.
+
+```yml
+years:
+  - year: 2026
+    entries:
+      - venue: "VLDB"
+        title: "Toward Drift-Aware Database Benchmarking"
+        authors: "G. Liu and R. Borovica-Gajic"
+        links:
+          - label: "PDF"
+            url: "/files/papers/toward-drift-aware-database-benchmarking.pdf"
         note: "(to appear)"
 ```
 

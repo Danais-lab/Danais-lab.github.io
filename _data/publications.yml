@@ -5,7 +5,9 @@ years:
       - venue: "VLDB"
         title: "Toward Drift-Aware Database Benchmarking"
         authors: "G. Liu and R. Borovica-Gajic"
-        note: "(to appear)"
+        links:
+          - label: "PDF"
+            url: "/files/papers/toward-drift-aware-database-benchmarking.pdf"
       - venue: "ICDE"
         title: "Generalizable Address-aware Semantic Prefetching for Scalable Transactional and Analytical Workloads"
         authors: "F. Zirak, F. Choudhury, and R. Borovica-Gajic"
@@ -20,28 +22,24 @@ years:
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2026_aaai.pdf"
-        note: "(to appear)"
       - venue: "SIGMOD"
         title: "AgentTune: An Agent-Based Large Language Model Framework for Database Knob Tuning"
         authors: "Y. Li, H. Li, J. Zhang, R. Borovica-Gajic, S. Wang, J. Chen, R. Shi, C. Li, H. Chen"
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2026_sigmod.pdf"
-        note: "(to appear)"
       - venue: "ICDE"
         title: "CoLSE: A Lightweight and Robust Hybrid Learned Model for Single-Table Cardinality Estimation using Joint CDF"
         authors: "L. Rathuwadu, G. Liu, C. Leckie, and R. Borovica-Gajic"
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2026_icde_lankadinee.pdf"
-        note: "(to appear)"
       - venue: "ICDE"
         title: "Benchmarking RL-Enhanced Spatial Indices Against Traditional, Advanced, and Learned Counterparts"
         authors: "G. Liu, R. Borovica-Gajic, H. Lan, and Z. Bao"
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2026_icde_guanli.pdf"
-        note: "(to appear)"
   - year: 2025
     entries:
       - venue: "KBS"
@@ -78,14 +76,12 @@ years:
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2025_sigspatial.pdf"
-        note: "(to appear)"
       - venue: "Encyclopedia of GIS"
         title: "Traffic Simulators"
         authors: "N. Dissanayake, R. Borovica-Gajic, E. Tanin and S. Karunasekera"
         links:
           - label: "PDF"
             url: "https://renata.borovica-gajic.com/data/2025_traffic_chapter.pdf"
-        note: "(to appear)"
       - venue: "VLDB"
         title: "Cardinality Estimation for Similarity Search on High-Dimensional Data Objects: The Impact of Reference Objects"
         authors: "H. Lan, S. Huang, Z. Bao, and R. Borovica-Gajic"

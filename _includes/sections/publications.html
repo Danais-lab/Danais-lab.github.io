@@ -14,7 +14,7 @@
             {% assign seen_venues = seen_venues | append: venue_token %}
             <span class="pub-anchor" id="pub-{{ year.year }}-{{ venue_slug }}"></span>
           {% endunless %}
-          <div class="list-item" id="pub-{{ year.year }}-{{ venue_slug }}-{{ forloop.index }}"><span class="pub-venue">{{ entry.venue }}</span> {{ entry.title }}. {{ entry.authors }}.{% if entry.links %}{% for link in entry.links %} <a class="pub-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}{% endif %}{% if entry.note %} {{ entry.note }}{% endif %}</div>
+          <div class="list-item" id="pub-{{ year.year }}-{{ venue_slug }}-{{ forloop.index }}"><span class="pub-venue">{{ entry.venue }}</span> {{ entry.title }}. {{ entry.authors }}.{% if entry.links %}{% for link in entry.links %}{% assign is_external = link.url contains '://' %} <a class="pub-link" href="{% if is_external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}{% endif %}{% if entry.note %} {{ entry.note }}{% endif %}</div>
         {% endfor %}
       </div>
     </div>
