@@ -71,6 +71,11 @@ projects:
       - label: "VLDB'24"
         year: 2024
         venue: "VLDB"
+      - label: "ICDE'26"
+        year: 2026
+        venue: "ICDE"
+        papers:
+          - title: "Generalizable Address-aware Semantic Prefetching for Scalable Transactional and Analytical Workloads"
   - title: "Cardinality Estimation"
     text: >-
       This project aims to predict query result sizes in order to improve query planning and execution

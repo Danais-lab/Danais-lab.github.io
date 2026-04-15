@@ -11,7 +11,9 @@ years:
       - venue: "ICDE"
         title: "Generalizable Address-aware Semantic Prefetching for Scalable Transactional and Analytical Workloads"
         authors: "F. Zirak, F. Choudhury, and R. Borovica-Gajic"
-        note: "(to appear)"
+        links:
+          - label: "PDF"
+            url: "/files/papers/generalizable-address-aware-semantic-prefetching-for-scalable-transactional-and-analytical-workloads.pdf"
       - venue: "MLSys"
         title: "Practical Adversarial Multi-Armed Bandits with Sublinear Runtime"
         authors: "K. Overgaard Mortensen, A. B. Bainson, M. R. Tversted, K. S. Graem, R. Borovica-Gajic, A. Paudice, D. Mottin, and P. Karras"
