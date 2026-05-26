@@ -1,6 +1,14 @@
 {% assign about = site.data.about %}
 <h2>{{ about.heading }}</h2>
 <p>{{ about.body }}</p>
+{% if about.group_photo and about.group_photo.src %}
+  <figure class="about-group-photo">
+    <img src="{{ about.group_photo.src }}" alt="{{ about.group_photo.alt | default: 'Lab group photo' }}" loading="lazy" />
+    {% if about.group_photo.caption %}
+      <figcaption>{{ about.group_photo.caption }}</figcaption>
+    {% endif %}
+  </figure>
+{% endif %}
 <div class="card-grid card-grid-three">
   {% for card in about.cards %}
     <article class="card">

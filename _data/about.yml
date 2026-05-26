@@ -7,6 +7,10 @@ body: >-
   with a focus on scalable and trustworthy technologies that support data exploration and decision-making.
   By bridging theory and real-world applications, DANAIS enables data-driven intelligence across
   scientific, industrial, and societal domains.
+group_photo:
+  src: "images/group-photo-2026-05-26.jpg"
+  alt: "DANAIS Lab group photo"
+  caption: "DANAIS Lab, May 2026"
 cards:
   - title: "Vision"
     text: "Turn vast, complex data into reliable insight that advances science, industry, and society."
