@@ -3,7 +3,7 @@ title: Home
 nav_title: Home
 anchor: home
 nav: true
-order: 1
+order: 2
 section_class: hero
 no_container: true
 ---

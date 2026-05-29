@@ -2,8 +2,8 @@
 title: About
 anchor: about
 nav: false
-order: 2
+order: 1
 page: about.html
-published: false
+published: true
 ---
 {% include sections/about.html %}

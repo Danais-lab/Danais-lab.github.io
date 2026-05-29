@@ -201,7 +201,8 @@ p {
 }
 
 .about-group-photo {
-  margin: 24px 0 28px;
+  width: 80%;
+  margin: 24px auto 28px;
 }
 
 .about-group-photo img {
